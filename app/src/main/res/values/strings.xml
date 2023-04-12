@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <!-- Customize your theme here. -->
+    <string name="app_name">RescueSupport_0412</string>
+    <!-- Button Text -->
+    <string name="action_guidelines">재난 행동 지침</string>
+    <string name="emergency_call">긴급 연락</string>
+    <string name="search_shelter">대피소 조회</string>
+</resources>
