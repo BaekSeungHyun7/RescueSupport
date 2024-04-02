@@ -6,11 +6,21 @@
         android:enabled="true"
         android:icon="@drawable/ic_home"
         android:title="홈"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tab_btn_alarm"
+        android:icon="@drawable/ic_menu_alarm"
+        android:title="재난 알림"
         app:showAsAction="always"/>
     <item
         android:id="@+id/tab_btn_news"
         android:icon="@drawable/ic_news"
         android:title="재난 뉴스"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/tab_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="기상 정보"
         app:showAsAction="always"/>
     <item
         android:id="@+id/tab_btn_setting"

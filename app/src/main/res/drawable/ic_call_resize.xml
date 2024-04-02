@@ -2,6 +2,5 @@
     <item
         android:width="65dp"
         android:height="65dp"
-        android:drawable="@drawable/ic_call"
-        android:background="@drawable/circle_btn"/>
+        android:drawable="@drawable/ic_call"/>
 </layer-list>

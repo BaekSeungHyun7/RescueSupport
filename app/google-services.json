@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491487861384",
+    "project_id": "rescuesupport-207e8",
+    "storage_bucket": "rescuesupport-207e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491487861384:android:ec8916de9d861171b95d3d",
+        "android_client_info": {
+          "package_name": "com.example.rescuesupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491487861384-n7iup59tjo6kjndan7fqoroh1vj22eae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0z3OANBRE2AcuOa__bRv0HzsveVEqhBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491487861384-n7iup59tjo6kjndan7fqoroh1vj22eae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_drought"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="가뭄"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_drought_resize" />
+
+                <Button
+                    android:id="@+id/btn_gale"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="강풍"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_gale_resize" />
+
+                <Button
+                    android:id="@+id/btn_thunder_stroke"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="낙뢰"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_thunder_stroke_resize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_green_algae"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="녹조"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_green_algae_resize" />
+
+                <Button
+                    android:id="@+id/btn_heavy_snow"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="대설"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_heavy_snow_resize" />
+
+                <Button
+                    android:id="@+id/btn_land_slide"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="산사태"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_land_slide_resize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_yellow_dust"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="황사"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_yellow_dust_resize" />
+
+                <Button
+                    android:id="@+id/btn_particulate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="미세먼지"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_particulate_resize" />
+
+                <Button
+                    android:id="@+id/btn_red_tide"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="적조"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_red_tide_resize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_earthquake"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="지진"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_earthquake_resize" />
+
+                <Button
+                    android:id="@+id/btn_Flooding"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="홍수 및 침수"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_flooding_resize" />
+
+                <Button
+                    android:id="@+id/btn_Typhoon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="태풍"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_typhoon_resize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_heat_wave"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="폭염"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_heat_wave_resize" />
+
+                <Button
+                    android:id="@+id/btn_cold_wave"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="한파"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_cold_wave_resize" />
+
+                <Button
+                    android:id="@+id/btn_Tsunami"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="해일"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_tsunami_resize" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_volcano"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="화산폭발"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_volcano_resize" />
+
+                <Button
+                    android:id="@+id/btn_jellyfish"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="해파리"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_jellyfish_resize" />
+
+                <Button
+                    android:id="@+id/btn_downpour"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="호우"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_nt_downpour_resize" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

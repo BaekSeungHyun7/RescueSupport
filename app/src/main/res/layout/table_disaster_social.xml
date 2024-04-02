@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_gas_exposure"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="가스누출 및 폭발"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_gas_exposure_resize" />
+                <Button
+                    android:id="@+id/btn_livestock"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="가축질병"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_livestock_resize" />
+                <Button
+                    android:id="@+id/btn_Infectious"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="감염병"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_infectious_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_building_collapse"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="건축물 붕괴"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_building_collapse_resize" />
+                <Button
+                    android:id="@+id/btn_Traffic_Accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="교통사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_traffic_accident_resize" />
+                <Button
+                    android:id="@+id/btn_military_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="군사피해 민방공"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_military_damage_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_Dam_collapse"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="댐 붕괴"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_dam_collapse_resize" />
+                <Button
+                    android:id="@+id/btn_tunnel_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="터널 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_tunnel_accident_resize" />
+                <Button
+                    android:id="@+id/btn_financialcom"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="금융피해사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_financialcom_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_health_disaster"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="의료재난"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_health_disaster_resize" />
+                <Button
+                    android:id="@+id/btn_workplace_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="사업장 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_workplace_accident_resize" />
+                <Button
+                    android:id="@+id/btn_nuclear_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="원전 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_nuclear_accient_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_overcrowding"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="압사 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_overcrowding_resize" />
+                <Button
+                    android:id="@+id/btn_electric_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="전기 사고(누전)"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_electric_accident_resize" />
+                <Button
+                    android:id="@+id/btn_Outages"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="전력 사고(정전)"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_outages_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <Button
+                    android:id="@+id/btn_subway_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="철도 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_subway_accident_resize" />
+                <Button
+                    android:id="@+id/btn_terror"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="테러"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_terror_resize" />
+                <Button
+                    android:id="@+id/btn_information"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="정보통신사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_information_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_aircraft_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="항공 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_aircraft_accident_resize" />
+                <Button
+                    android:id="@+id/btn_marine_ship_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="해양 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_marine_ship_accident_resize" />
+                <Button
+                    android:id="@+id/btn_marine_pollution"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="해양오염"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_marine_pollution_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_nucleus"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="핵"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_nucleus_resize" />
+                <Button
+                    android:id="@+id/btn_fire"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="화재"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_fire_resize" />
+                <Button
+                    android:id="@+id/btn_chemical_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="화학물 사고"
+                    android:background="@drawable/spinner_border_white"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_sc_chemical_accident_resize" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+
+
+
+
+
+

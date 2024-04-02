@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_call_all"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_call_all_resize"
+            android:text="긴급 정보 발송"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:background="@color/MainColor_Orange_v1"/>
+
+        <Button
+            android:id="@+id/btn_call_112"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_call_112_resize"
+            android:text="긴급 신고 112 연결"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:background="@color/MainColor_Orange_v1"/>
+
+        <Button
+            android:id="@+id/btn_call_119"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_call_119_resize"
+            android:text="응급 구조 119 연결"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:background="@color/MainColor_Orange_v1"/>
+
+        <Button
+            android:id="@+id/btn_call_110"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_call_110_resize"
+            android:text="일반 신고 상담 110 연결"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:background="@color/MainColor_Orange_v1"/>
+
+        <Button
+            android:id="@+id/btn_call_etc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="기타 전화 기능 보기"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:background="@color/MainColor_Orange_v1"/>
+    </LinearLayout>
+
+</LinearLayout>

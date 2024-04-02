@@ -1,10 +1,28 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
     <!-- Customize your theme here. -->
-    <string name="app_name">RescueSupport_0412</string>
+    <string name="app_name">응급구조지원</string>
+    <string name="version">RS_rel_11</string>
     <!-- Button Text -->
     <string name="action_guidelines">재난 행동 지침</string>
     <string name="emergency_call">긴급 연락</string>
     <string name="search_shelter">대피소 조회</string>
+    <string name="F5">새로 고침</string>
+    <string name="current_user_location_exp">현재 위치의 재난 안전 정보가 검색됩니다.</string>
+    <string name="current_user_location">현재 위치 :  </string>
+    <!-- Number -->
+    <string name="Test_number">01090483223</string>
+    <string name="drawer_open">열기</string>
+    <string name="drawer_close">닫기</string>
+    <!-- Weather -->
+    <string name="weather_url">http://api.openweathermap.org/</string>
+    <string name="weather_app_id">9cc547228a88ecad3a2739c219174f44</string>
+    <!-- dis Massage -->
+    <string name="MsgServiceKEY">f%2FmOzdZ3OiF%2FIkC6EUBlPl5Axz7TFj25S4n%2FzxACL9HL7%2BkRrJe40j5ZyKgvLDr9pt2DvTBWy2w%2Fk9wddt46og%3D%3D</string>
+    <string name="KakaoNativeKey">cb44deab0f22c48bc4450e0c51962e1f</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="TitleName">응급구조지원</string>
 </resources>

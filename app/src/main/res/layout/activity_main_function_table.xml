@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/userInfoBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:text="사용자 정보"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_user_resize" />
+            <Button
+                android:id="@+id/btn_CPR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:text="심폐소생술"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/gl_lv_cpr_resize" />
+
+            <Button
+                android:id="@+id/btn_near_shelter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:drawableTop="@drawable/ic_shelter_resize"
+                android:gravity="center"
+                android:text="가까운 대피소" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_AED"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:text="자동제세동기 위치"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_aed_resize"/>
+            <Button
+                android:id="@+id/btn_Private_Ambulance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:text="민간 구급차"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_ambulance_resize" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_border_white"
+                android:text="즐겨찾기 편집"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_plus_resize" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,13 +1,14 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
 
-    <include layout="@layout/activity_toolbar"/>
-    <include layout="@layout/activity_main_function"/>
-    <include layout="@layout/activity_main_tab_table"/>
-    <include layout="@layout/activity_bottom"/>
-    <!--test line-->
+    <include layout="@layout/activity_main_toolbar" />
+
 </LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shelter_type">
+        <item>민방위대피소</item>
+        <item>지진옥외대피장소</item>
+        <item>지진해일긴급대피장소</item>
+        <item>병원</item>
+        <item>응급의료센터</item>
+        <item>약국</item>
+        <item>소방서</item>
+        <item>경찰서</item>
+    </string-array>
+</resources>

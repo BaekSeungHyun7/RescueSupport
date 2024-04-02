@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_water_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="물놀이 사고"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_water_accident_resize" />
+                <Button
+                    android:id="@+id/btn_mountain_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="산행사고"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_mountain_accident_resize" />
+                <Button
+                    android:id="@+id/btn_elevator_accident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="승강기 사고"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_elevator_accident_resize" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_food_poisoning"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="식중독"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_food_poisoning_resize" />
+                <Button
+                    android:id="@+id/btn_CPR"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="심폐소생술"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_cpr_resize" />
+                <Button
+                    android:id="@+id/btn_first_aid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="응급 처치"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_first_aid_resize" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_bug"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="실내 해충"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_bug_resize" />
+                <Button
+                    android:id="@+id/btn_kidnap"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="억류 및 납치"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_kidnap_resize" />
+                <Button
+                    android:id="@+id/btn_oilProductAccident"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border_white"
+                    android:text="석유제품사고"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/gl_lv_oil_resize" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+

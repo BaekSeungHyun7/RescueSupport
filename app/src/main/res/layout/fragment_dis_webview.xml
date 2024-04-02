@@ -1,0 +1,13 @@
+<!-- fragment_dis_nature_earthquake.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_dis_na_earthquake">
+
+    <!-- 웹뷰 추가 -->
+    <WebView
+        android:id="@+id/webViewEarthquake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
